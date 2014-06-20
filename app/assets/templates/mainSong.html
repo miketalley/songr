@@ -1,0 +1,11 @@
+<h3>{{songService.songs[songID].title}}</h3>
+  <ul>
+    <li>Artist: {{songService.songs[songID].artist}}</li>
+    <li>Duration: {{songService.songs[songID].duration}}</li>
+    <li>Buy: {{songService.songs[songID].price | currency}}</li>
+  </ul>
+
+  <a ng-click='$back()'>Back</a>
+
+
+
